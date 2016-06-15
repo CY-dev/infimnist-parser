@@ -12,3 +12,9 @@ A python parser that converts infinite MNIST binary data to a readable format wi
 * Then convert the binary data to a human readable format with any delimiter:
 
 `python infimnist_parser.py test10k-labels test10k-patterns -d '|' -o test10k`
+
+* Or use the parser in the interactive mode or another python script:
+
+`from infimnist_parser import convert`
+
+`data = convert(test10k-labels, test10k-patterns, save = False)`
