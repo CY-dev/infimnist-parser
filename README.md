@@ -9,6 +9,6 @@ Example:
 
 `infimnist pat 0 9999 > test10k-patterns`
 
-* Then convert the binary data to csv:
+* Then convert the binary data to a human readable format with any delimiter:
 
-`python infimnist_parser.py test10k-labels test10k-patterns -d ',' -o test10k`
+`python infimnist_parser.py test10k-labels test10k-patterns -d '\t' -o test10k`
